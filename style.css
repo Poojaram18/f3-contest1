@@ -1,0 +1,63 @@
+/* ----------body------------- */
+body{
+    
+    margin: 0px;
+   background-color: antiquewhite;
+}
+
+/* ---------part1----------- */
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 1% 2%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+/* -------------part2------------- */
+header>h1{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+}
+
+/* ------------------part3------------------- */
+#productsGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    font-size: 18px;
+}
+/* -----------whole box--------------- */
+.prodBox{
+    border: 1px solid rgb(26, 25, 25); 
+    width: 20%;
+    background-color: white;
+   
+}
+/* ------------image body--------------- */
+.prodBox img{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+
+.prodBox:hover{
+    scale: 85%;
+    border: 3px solid blue;
+    color: blue;
+    box-shadow: inset;
+    cursor: pointer;
+}
