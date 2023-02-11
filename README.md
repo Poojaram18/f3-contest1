@@ -1,5 +1,9 @@
 # f3-contest1
+
 https://course.acciojob.com/start-project?project=a9ad0c70-fd4c-446f-a62d-b37d1d91aae5
+
+
+
 Frontend 3 Contest 1
 The first step in fetching data from an API using .then is to make a GET request to the API endpoint. In this case, the API endpoint is https://dummyjson.com/products
 
